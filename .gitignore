@@ -1,0 +1,61 @@
+# 編譯輸出
+/dist
+/build
+*.js
+*.js.map
+*.d.ts
+!jest.config.js
+!nest-cli.js
+
+# 依賴套件
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 日誌檔案
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS 系統檔案
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE 設定檔
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# 測試覆蓋率
+/coverage
+/.nyc_output
+
+# 環境變數檔案
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# 暫存檔案
+*.tmp
+*.temp
+/tmp
+/temp
+
+# NestJS 特定
+/dist
+/upload
+
+# 資料庫
+*.sqlite
+*.db
